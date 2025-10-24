@@ -1,0 +1,117 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 15px;
+}
+
+.hadding {
+  color: aliceblue;
+}
+
+.paragraph {
+  display: flex;
+  width: 60%;
+  color: antiquewhite;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 15px;
+}
+
+.buttons-1 {
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px solid rgba(152, 130, 130, 0.6);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.buttons-1:hover {
+  background-color: #ff6b6b;
+  color: aliceblue;
+  border: 1px solid #ff6b6b;
+}
+
+.card-sec{
+display: flex;
+flex-direction: row;
+ padding-left: 40px;
+ padding: 0px 80px;
+}
+
+.card-sub{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: aliceblue;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10px;
+  width: 30%;
+}
+
+.card-1{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tittle{
+  padding: 10px;
+}
+.image{
+  display: flex;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.icons-sec{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contant{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+
+.prices{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+padding: 10px;
+}
+
+.color{
+  color: red;
+}
+
+.sec{
+  display: flex;
+  border: 2px solid white;
+  padding: 20px 15px;
+  cursor: pointer;
+  background-color: #581818;
+}
