@@ -51,8 +51,8 @@ body {
 .card-sec{
 display: flex;
 flex-direction: row;
- padding-left: 40px;
- padding: 0px 80px;
+ padding-left: 10px;
+ 
 }
 
 .card-sub{
@@ -64,6 +64,7 @@ flex-direction: row;
   border-radius: 20px;
   margin: 10px;
   width: 30%;
+  
 }
 
 .card-1{
@@ -72,8 +73,19 @@ flex-direction: row;
   gap: 20px;
 }
 
+.insect{
+  display: flex;
+  padding-left: 10px;
+}
+
 .tittle{
-  padding: 10px;
+ color: aqua ;
+  display: flex;
+}
+
+.tittle-2{
+  display: flex;
+  padding-left: 14px;
 }
 .image{
   display: flex;
@@ -114,4 +126,45 @@ padding: 10px;
   padding: 20px 15px;
   cursor: pointer;
   background-color: #581818;
+  
+}
+
+.sec:hover{
+  display: flex;
+  background-color: darkblue;
+  transition: 1s;
+}
+
+.images-2{
+  width: 58%;
+  padding-left: 90px;
+}
+
+.tittles{
+  font-size: 30px;
+  padding-left: 10px;
+  color: aquamarine;
+}
+
+.haddings{
+  display: flex;
+
+}
+
+.color-1{
+  color: aliceblue;
+}
+
+.color-2{
+  color: #ff6b6b;
+}
+
+.image-3{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.tittl{
+  font-size: 60px;
+  color: #221799b4;
 }
